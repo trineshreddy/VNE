@@ -177,6 +177,9 @@ def VNE_DR_Algorithm():
         for _ in r_new:
             handle_r_new(substrate_graph,_)
             r_new.pop()
+     
+result = VNE_DR_Algorithm()
+print(result)
 
     
 
